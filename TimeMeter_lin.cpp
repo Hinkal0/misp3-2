@@ -1,5 +1,3 @@
-#ifndef _WIN32
-
 #include "TimeMeter.h"
 #include <vector>
 #include <ctime>
@@ -59,4 +57,3 @@ bool TimeMeter::isLess(unsigned num, int64_t expected) const {
 	return getMSTimeStamp(num) < expected;
 }
 
-#endif
